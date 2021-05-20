@@ -1,0 +1,3 @@
+/usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f CMakeFiles/euclidean_pattern_pd.dir/objects.a
+/usr/local/bin/x86_64-w64-mingw32-ar cr CMakeFiles/euclidean_pattern_pd.dir/objects.a @CMakeFiles/euclidean_pattern_pd.dir/objects1.rsp
+/usr/local/bin/x86_64-w64-mingw32-g++    -shared -o ../../../../bin/pd-Windows-/euclidean_pattern.dll -Wl,--out-implib,libeuclidean_pattern.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/euclidean_pattern_pd.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/euclidean_pattern_pd.dir/linklibs.rsp

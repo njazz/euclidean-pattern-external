@@ -1,0 +1,8 @@
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/CMakeFiles/rebuild_cache.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/CMakeFiles/edit_cache.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/modules/euclidean_pattern/CMakeFiles/rebuild_cache.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/modules/euclidean_pattern/CMakeFiles/edit_cache.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/modules/euclidean_pattern/CMakeFiles/euclidean_pattern_max.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/modules/euclidean_pattern/CMakeFiles/euclidean_pattern_pd.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/modules/euclidean_pattern/MaxPdObject/CMakeFiles/rebuild_cache.dir
+/Users/njazz/Documents/github/euclidean_pattern_external/builds/win-mingw/modules/euclidean_pattern/MaxPdObject/CMakeFiles/edit_cache.dir

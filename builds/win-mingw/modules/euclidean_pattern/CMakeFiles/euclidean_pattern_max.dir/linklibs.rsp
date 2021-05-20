@@ -1,0 +1,1 @@
+ ../../../../modules/euclidean_pattern/../../third_party/max-sdk/source/c74support/max-includes/x64/MaxAPI.lib ../../../../modules/euclidean_pattern/../../third_party/max-sdk/source/c74support/max-includes/x64/maxcrt_p.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

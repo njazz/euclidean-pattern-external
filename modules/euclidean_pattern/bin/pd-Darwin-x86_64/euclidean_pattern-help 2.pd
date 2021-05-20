@@ -1,0 +1,43 @@
+#N canvas 364 229 1050 420 12;
+#X obj 57 187 euclidean_pattern;
+#X obj 57 244 prepend set;
+#X msg 57 293 1 0 1 0 1 0 1 1 0 1 0 1;
+#X obj 58 24 hsl 128 15 0 16 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 5900 1;
+#X obj 58 45 hsl 128 15 0 16 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 4300 1;
+#X obj 80 114 pack 0 0;
+#X msg 57 160 make_pattern \$1 \$2;
+#X obj 79 86 t b f;
+#X obj 305 185 euclidean_pattern;
+#X obj 305 242 prepend set;
+#X msg 305 291 0 0.272727 0.454545 0.636364 0.818182;
+#X obj 306 22 hsl 128 15 0 16 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 4200 1;
+#X obj 306 43 hsl 128 15 0 16 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 4900 1;
+#X obj 328 112 pack 0 0;
+#X obj 327 84 t b f;
+#X msg 305 158 make_fractions \$1 \$2;
+#X text 635 23 Very simple euclidean pattern generator for Max and
+Pure Data usage: [make_pattern ones zeros ( generates patterns that
+contains 0 and 1: [make_pattern 3 4 ( -> 1 0 0 1 0 1 0 [make_fractions
+ones zeros ( generates time values (0..1) when [1] elements appear
+in sequence [make_fractions 3 4 ( -> 0 0.428571 0.714286 Alex Nadzharov
+\, 2021 MIT License;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 5 0;
+#X connect 4 0 7 0;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X connect 7 0 5 0;
+#X connect 7 1 5 1;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 11 0 13 0;
+#X connect 12 0 14 0;
+#X connect 13 0 15 0;
+#X connect 14 0 13 0;
+#X connect 14 1 13 1;
+#X connect 15 0 8 0;
